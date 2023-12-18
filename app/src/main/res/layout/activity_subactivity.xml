@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingTop="5dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="#"
+                android:textAlignment="textEnd"
+                android:textColor="#E41405"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtMaBaiHat"
+                android:layout_width="245dp"
+                android:layout_height="match_parent"
+                android:text="20230"
+                android:textColor="#F10E0E"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TÊN BÀI HÁT"
+                android:textAlignment="center"
+                android:textColor="#05FA0F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTenBaiHat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHÉN ĐẮNG"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LỜI BÀI HÁT"
+                android:textAlignment="center"
+                android:textColor="#0AED13"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLoibaihat"
+                android:layout_width="244dp"
+                android:layout_height="27dp"
+                android:text="..."
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TÁC GIẢ"
+                android:textAlignment="center"
+                android:textColor="#0BF314"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTacGia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="116dp"
+                android:layout_height="match_parent"
+                android:text="YÊU THÍCH"
+                android:textAlignment="center"
+                android:textColor="#01FA0B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btn_yeuthich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:backgroundTint="@color/white"
+                tools:srcCompat="@drawable/timtrang" />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_play"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+
+            android:background="#0C0C0C"
+            tools:srcCompat="@drawable/yeah" />
+
+        <ImageButton
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+
+            android:backgroundTint="#090909"
+            android:src="@drawable/playnhac" />
+
+        <ImageButton
+            android:id="@+id/btn_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#191818"
+
+
+            android:src="@drawable/pausenhac" />
+    </LinearLayout>
+</LinearLayout>

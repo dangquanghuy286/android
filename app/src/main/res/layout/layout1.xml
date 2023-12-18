@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:backgroundTint="#FBFBF6"
+    android:clickable="true"
+    android:backgroundTintMode="src_in"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtmaso"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="52300"
+        android:textAlignment="viewStart"
+        android:textColor="#08FB11"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txttieude"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="CẮT ĐÔI NỔI SẦU"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/btn_Like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="@color/white"
+        android:paddingStart="8dp"
+        android:src="@drawable/timtrang" />
+</LinearLayout>
