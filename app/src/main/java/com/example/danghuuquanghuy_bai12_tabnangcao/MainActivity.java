@@ -60,11 +60,11 @@ public class MainActivity extends AppCompatActivity {
         tab.addTab(tab1);
         TabHost.TabSpec tab2=tab.newTabSpec("t2");
         tab2.setContent(R.id.tab2);
-        tab2.setIndicator("",getResources().getDrawable(R.drawable.list1));
+        tab2.setIndicator("",getResources().getDrawable(R.drawable.listto));
         tab.addTab(tab2);
         TabHost.TabSpec tab3=tab.newTabSpec("t3");
         tab3.setContent(R.id.tab3);
-        tab3.setIndicator("",getResources().getDrawable(R.drawable.like));
+        tab3.setIndicator("",getResources().getDrawable(R.drawable.favourite));
         tab.addTab(tab3);
         edttim = (EditText) findViewById(R.id.edttim);
         lv1 = (ListView) findViewById(R.id.lv1);
